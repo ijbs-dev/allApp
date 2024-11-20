@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f2f1; 
+}
+
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: #dfc4b2; 
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-control {
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.25);
+}
+
+
+.list-group-item {
+    transition: background-color 0.3s ease, transform 0.2s;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background-color: #fce4ec; 
+}
+
+.list-group-item:hover {
+    background-color: #f8bbd0; 
+    transform: scale(1.02);
+}
+
+.task-details {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+button {
+    border-radius: 8px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
